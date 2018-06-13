@@ -119,9 +119,45 @@ nav ul li {
   color: white;
 }
 .contact {
-  height: 700px;
-  background: blue;
+  height: 100vh;
+  color: white;
+  /* background: blue; */
 }
-.contact form input, .contact form textarea {
+.contact h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+}
+.contact p {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 100px;
+  color: #C0BCBC;
+  font-weight: lighter;
+}
+.contact input, .contact textarea {
   width: 100%;
+}
+.contact input[type="submit"] {
+  background: #FBCF35;
+  border: none;
+  width: 100%;
+}
+.contact input {
+  height: 40px;
+  margin-top: 20px;
+}
+.contact textarea{
+  margin-top: 20px;
+  height: 120px;
+}
+.contact h2 {
+  font-size: 36px;
+}
+.subscriptionbottom p {
+  
+  text-align: left;
+}
+.subscriptionbottom input {
+  width: 330px;
 }
